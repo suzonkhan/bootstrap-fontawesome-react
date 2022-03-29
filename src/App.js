@@ -12,6 +12,7 @@ import Contact from "./Components/Contact/Contact";
 import Shop from "./Components/Shop/Shop";
 import NotFound from "./Components/NotFound/NotFound";
 import CustomLink from "./Components/CustomLink/CustomLink";
+import ProductDetails from "./Components/ProductDetails/ProductDetails";
 library.add(fab, fas);
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="shop" element={<Shop />} />
+          <Route path="product/:productID" element={<ProductDetails />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
