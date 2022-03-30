@@ -1,9 +1,9 @@
 ## FontAwosome 
 
-> npm i --save @fortawesome/fontawesome-svg-core
-> npm install --save @fortawesome/free-solid-svg-icons
-> npm install --save @fortawesome/free-brands-svg-icons
-> npm install --save @fortawesome/react-fontawesome
+> npm i --save @fortawesome/fontawesome-svg-core\
+> npm install --save @fortawesome/free-solid-svg-icons\
+> npm install --save @fortawesome/free-brands-svg-icons\
+> npm install --save @fortawesome/react-fontawesome\
 
 ### Import Full collaction 
 > import { fab } from '@fortawesome/> free-brands-svg-icons'
