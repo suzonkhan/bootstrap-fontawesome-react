@@ -10,14 +10,14 @@
 > import { fas } from '@fortawesome/free-solid-svg-icons'\
 > library.add(fab, fas)
 
-###Usage:
+### Usage:
 > `<FontAwesomeIcon icon={['fas', 'coffee']} />`\
 > `<FontAwesomeIcon icon={['fab', 'google']} />`
 
 ### Import specific element 
 > import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-###Usage:
+### Usage:
 > `<FontAwesomeIcon icon={faCoffee} />`\
 > `<FontAwesomeIcon icon={faCheckSquare} />`
 
@@ -32,9 +32,9 @@
 ### Import into component
 > import {Row, Col, Button } from 'react-bootstrap';
 
-`<Row className="mx-0">\
-  <Button as={Col} variant="primary">Button #1</Button>\
-  <Button as={Col} variant="secondary" className="mx-2">Button #2</Button>\
-  <Button as={Col} variant="success">Button #3</Button>\
-</Row>`
+`<Row className="mx-0">`
+  `<Button as={Col} variant="primary">Button #1</Button>`
+  `<Button as={Col} variant="secondary" className="mx-2">Button #2</Button>`
+  `<Button as={Col} variant="success">Button #3</Button>`
+`</Row>`
 
