@@ -22,7 +22,7 @@ function App() {
         <ul>
           <li>
             <CustomLink to="/">
-              Home <FontAwesomeIcon icon={["fab", "apple"]} />{" "}
+              Home <FontAwesomeIcon icon={["fab", "apple"]} /> 
             </CustomLink>
           </li>
           <li>
