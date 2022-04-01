@@ -62,7 +62,8 @@ const Shop = () => {
           ></Product>
         ))}
       </Row>
-      <div className="floting-cart">
+    
+      <div style={{display: cart.length>0 ? 'block': 'none'} } className="floting-cart">
         <div className="floting-cart-inner">
           {cart.map((cartItem) => (
             <Cart
